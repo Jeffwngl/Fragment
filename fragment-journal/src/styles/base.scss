@@ -1,0 +1,7 @@
+@use './abstracts/index.scss' as *;
+
+body {
+    font-family: $font-family-base;
+    font-size: 16px;
+    line-height: 1.5;
+}

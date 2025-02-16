@@ -1,0 +1,68 @@
+@import '../../styles/abstracts/index.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: $shadow-color 0px 1px 0px;
+
+    .title {
+        .t1 {
+            padding-bottom: 0;
+            margin-bottom: 2px;
+            font-family: $font-family-title;
+        }
+        .t2 {
+            font-size: small;
+            padding-top: 0;
+            margin-top: 2px;
+            font-family: $font-family-title;
+        }
+    }
+
+    .links {
+        display: flex;
+        gap: 30px;
+        font-size: small;
+        a {
+            text-decoration: none;
+            color: black;
+            transition: 0.15s;
+            &:hover {
+                transform: scale(1.02);
+            }
+        }  
+    }
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .callout {
+        font-size: 80px;
+        text-align: center;
+        font-family: $font-family-title;
+    }
+
+    button {
+        padding: 12px;
+        border: none;
+        background-color: black;
+        font-family: $font-family-title;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.4s;
+        font-weight: 500;
+
+        &:hover {
+            box-shadow: inset 0 -100px 0 0 #ffffff;
+            color: black;
+            font-weight: 700;
+        }
+    }
+}
