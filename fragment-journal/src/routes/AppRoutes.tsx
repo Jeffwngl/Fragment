@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "../pages/login/Login";
 import Home from "../pages/home/Home";
 import Dashboard from "../pages/dashboard/Dashboard";
-import About from "../pages/about/about";
+import About from "../pages/about/About";
 
 const AppRoutes: React.FC = () => {
     return (

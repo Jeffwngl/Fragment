@@ -1,0 +1,35 @@
+@import '../styles/abstracts/index.scss';
+
+.stats {
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    height: 100%;
+
+    .bigStats {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .smallContainer {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+        p {
+            font-size: small;
+            font-weight: 600;
+            color: rgb(97, 97, 97);
+        }
+
+        .pnl {
+            font-size: 20px;
+            color: rgb(56, 56, 56);
+            font-family: $font-family-title;
+        }
+    }
+}
